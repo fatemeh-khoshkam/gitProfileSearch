@@ -46,8 +46,8 @@
 }
 .profile_card--title span {
     font-size: var(--font-size-md);
-    color: #615d5a8c;
-    font-weight: 200;
+    color: #615d5a;
+    font-weight: 400;
     padding-left: 0.4rem;
 }
 .profile_card--right {
