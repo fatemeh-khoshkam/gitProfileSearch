@@ -7,6 +7,7 @@
         <title>Search profile</title>
 		<!-- css links -->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
 
@@ -27,22 +28,36 @@
 			</div>
 			<div class='content flex'>
 				   <div class='profile_card--left flex'>
-				       <div class='profile_card_avatar'>
-					       <img src='image/avatar.png' alt='not found' id="img" />
+					   <div class="profile_card--leftItem">
+						<div class='profile_card_avatar'>
+							<img src='' alt='not found' id="img" />
+						</div>
+						<div class='profile_card--info flex'>
+							<h2 id="name"></h2>
+							<p id="username1"></p>
+							<div class='profile_card--Post-info flex'>
+							   <div class='profile_card--title flex'><h4 id="posts"></h4><span>repository</span></div>
+							   <div class='profile_card--title flex'><h4 id="follower"></h4><span>followers</span></div>
+							   <div class='profile_card--title flex'><h4 id="following"></h4><span>following</span></div>	  
+							</div>
+							
+						</div>
 					   </div>
-					   <div class='profile_card--info flex'>
-					       <h2 id="name">Lindsey James</h2>
-						   <p id="username1">@Lindsey_jam3s</p>
-						   <div class='profile_card--Post-info flex'>
-						      <div class='profile_card--title flex'><h4 id="posts">1,039</h4><span>repository</span></div>
-						      <div class='profile_card--title flex'><h4 id="follower">42.8K</h4><span>followers</span></div>
-							  <div class='profile_card--title flex'><h4 id="following">930</h4><span>following</span></div>	  
-						   </div>
-						   <p id="bio">Software developer, music </p>
+					   <div class="profile_card--leftItem">
+					      <p id="bio"></p>
+						  <div class="profile_card--footer">
+							  <div class="profile_location">
+								<i class="fa-solid fa-location-dot"></i>
+								  <p id="location"></p>
+							  </div>
+							  <div class="profile_url">
+								<i class="fa-solid fa-earth-africa"></i>
+								  <a href="" id="url"></a>
+							  </div>
+						  </div>
 					   </div>
 				   </div>
 				   <div class='profile_card--right flex'>
-				       <div class='btn btn__primary'>Message</div>
 					   <div class='btn btn__secondary'>Follow</div>
 				   </div>
 				</div>				

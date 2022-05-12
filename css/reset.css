@@ -222,13 +222,10 @@ a {
 }
 /* button secondary */
 .btn__secondary {
-    color: var(--dark-gray-color);
+    color: var(--dark-color);
     transition: all 0.3s ease;
-    background: linear-gradient(
-        27deg,
-        rgb(34 118 241 / 18%) 0%,
-        rgba(80, 168, 229, 0.8858893899356618) 100%
-    );
+    background: linear-gradient( 27deg, rgb(34 118 241 / 18%) 0%, rgba(80, 168, 229, 0.8858893899356618) 100% );
+    font-size: 1.3rem;
 }
 
 /* Container Media Query */
